@@ -2,7 +2,7 @@
 
 27-slide presentation for the CALI faculty visit to Brooklyn College on March 25, 2026. Single-page HTML deck, no build system, no dependencies.
 
-**Live** [cuny-ai-lab.github.io/cali-brooklyn](https://cuny-ai-lab.github.io/cali-brooklyn/)
+**Live** [cuny.is/cali-brooklyn](https://cuny.is/cali-brooklyn)
 
 **Presented by** Luke Waltzer, Laurie Hurson, Zach Muhlbauer
 Teaching and Learning Center, CUNY Graduate Center
