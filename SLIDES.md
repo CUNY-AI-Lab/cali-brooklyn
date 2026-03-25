@@ -27,7 +27,7 @@ Outline: About CALI / CALI Curriculum and Research / CALI T(h)inkering / Discuss
 
 **Stage (step-grid):**
 1. **Inevitability** discourse
-2. CUNY's History of **openness and innovation**
+2. CUNY's history of **openness and innovation**
 3. Necessity of **criticality**
 4. Need to **slow** things down
 
