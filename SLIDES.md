@@ -44,7 +44,7 @@ Four interconnected areas
 
 **Stage (step-grid):**
 1. **Faculty Development**
-2. **Research** 
+2. **Research**
 3. **Research and Development**
 4. **Advocacy**
 
@@ -53,7 +53,7 @@ Four interconnected areas
 ## Slide 4 -- Campuses
 
 **Label:** Cohort 1, 2025
-22 faculty 
+22 faculty
 12 CUNY campuses
 
 **Stage (table)**
@@ -82,7 +82,7 @@ Four interconnected areas
 Launching March 27, 2026
 
 **Stage (step-grid):**
-1. **Critical Foundations** 
+1. **Critical Foundations**
 2. **Ecological Implications**
 3. **T(h)inkering**
 
@@ -235,75 +235,86 @@ In Search of Shared Access
 
 - **June 2025** -- Hugging Face Chat (since sunsetted)
 - **Summer 2025** -- Hugging Face Spaces for hosting AI demos
-- **ChatUI-Helper** -- turning faculty configs into hosted demos ([huggingface.co/spaces/milwright/chatui-helper](https://huggingface.co/spaces/milwright/chatui-helper))
+- **ChatUI-Helper** -- turning faculty configs into hosted [demos](https://huggingface.co/spaces/milwright/chatui-helper)
 
-**Stage:** gallery (frag-synced on bullet 3): `slide20a.jpg` + `slide20b.jpg` + `slide20c.jpg`
+**Stage:** gallery (frag-synced on bullet 3): `slide20a.png` + `slide20b.png`
 
 ---
 
 ## Slide 21 -- Piloting on Hugging Face
 
 **Label:** T(h)inkering
-Heritage Spanish at Hunter College, Fall 2025
+Spanish at Hunter College, Fall 2025
 
-- AmigAI -- conversational Spanish practice *(synced → image 1)*
-- Heritage-speaking Spanish section, Hunter College
-- Built-in changelog for retraceable system prompt edits *(synced → image 2)*
+- **AmigAI** -- conversational Spanish practice *(synced -> image 1)*
+- Non-native and heritage speaking Spanish classes, Hunter College
+- Built-in changelog for retraceable system prompt edits *(synced -> image 2)*
 
 **Stage:** gallery (frag-synced): `slide20-a.png` + `slide20-b.png`
 
 ---
 
-## Slide 22 -- **Then** and Now: CALI Cohort 1, 2025
+## Slide 22 -- <u>Then</u> and Now: CALI Cohort 1, 2025
 
 **Label:** T(h)inkering
 
 - Faculty pilots as standalone Hugging Face Spaces
+- Each demo configured and deployed individually with direct support
 - Hard to track, evaluate, or manage at scale
 
-**Stage:** `slide21.png`
+**Stage:** `slide21.png` (caption: CALI tools collection on Hugging Face)
 
 ---
 
-## Slide 23 -- Then and **Now**: CALI Cohort 2, 2026
+## Slide 23 -- Then and <u>Now</u>: CALI Cohort 2, 2026
 
 **Label:** T(h)inkering
 Open WebUI
 
-- Open-source chat platform, self-hosted by CUNY AI Lab -- dedicated sandbox for teaching and research
+- Open-source chat platform, self-hosted by CUNY AI Lab
+- Support customization of model cards, comparison of multiple models at once
 
-**Stage:** gallery: `slide22-a.png` + `slide22-b.png` + `slide22-c.png`
+**Stage:** `slide22-a.png`
 
 ---
 
-## Slide 24 -- T(h)inkering to Come
+## Slide 24 -- Dedicated Sandbox
 
 **Label:** T(h)inkering
-Five projects in development for Cohort 2
+For teaching and research
 
-- **Concept mapping** (Interdisciplinary)
-- **Laboratory workflows** (Physics)
-- **Deep listening** (Ethnomusicology)
+**Stage:** gallery: `slide22-b.png` + `slide22-c.png`
+
+---
+
+## Slide 25 -- T(h)inkering to Come
+
+**Label:** T(h)inkering
+Five Projects for Cohort 2
+
+- **Concept Mapping** (Interdisciplinary)
+- **Laboratory Workflows** (Physics)
+- **Deep Listening** (Ethnomusicology)
 - **Interdisciplinary Math Connections** (Precalculus)
 - **Research Writing Scaffold** (Sociology)
 
-**Stage:** `slide23.png`
+**Stage:** `slide23.png` (caption: Model card: 1) name the card, 2) choose a base model, 3) write a system prompt)
 
 ---
 
-## Slide 25 -- Lessons Learned
+## Slide 26 -- Lessons Learned
 
 **Label:** T(h)inkering
 
 **Stage (step-grid):**
-1. **Experimentation** as critical and methodological knowing
+1. **Tinkering** as critical and methodological knowing
 2. Process as **scaffolded progression** and quality assurance
 3. Start small, leverage **A/B testing** to name what matters
 4. Accrued gains of **open practices** and community infrastructure
 
 ---
 
-## Slide 26 -- Policy and Strategy
+## Slide 27 -- Policy and Strategy
 
 **Label:** Looking Ahead
 Informing decision making across four domains
@@ -316,15 +327,15 @@ Informing decision making across four domains
 
 ---
 
-## Slide 27 -- Discussion and Questions
+## Slide 28 -- Discussion and Questions
 
 How might CALI's frameworks, tools, and methods translate to your context?
 
 **Stage:**
 
-- **Critical AI Literacy Institute** -- http://cuny.is/cali
-- **CUNY AI Lab** -- http://ailab.gc.cuny.edu
+- **Critical AI Literacy Institute** -- cuny.is/cali
+- **CUNY AI Lab** -- ailab.gc.cuny.edu
 
 ---
 
-_Draft: 2026-03-24. Brooklyn College visit, March 25, 2026. 27 slides._
+_Draft: 2026-03-24. Brooklyn College visit, March 25, 2026. 28 slides._
