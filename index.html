@@ -31,6 +31,8 @@
       <div class="title-credit">
         <span class="credit-names">Luke Waltzer &middot; Laurie Hurson &middot; Zach Muhlbauer</span>
       </div>
+      <div class="title-divider"></div>
+      <div class="title-agenda-label"><em>Agenda</em></div>
       <ol class="title-agenda">
         <li>About CALI</li>
         <li>Curriculum and Research</li>
@@ -396,16 +398,12 @@
     <div class="stage" aria-hidden="true">
       <div class="stage-gallery" data-interval="6000" data-frag-sync>
         <div class="gallery-item active">
-          <img src="images/slide20a.jpg" alt="ChatUI Helper on Hugging Face: Quick Start Templates and Space Identity configuration">
-          <div class="gallery-caption">ChatUI Helper &mdash; template and identity config</div>
+          <img src="images/slide20a.png" alt="ChatUI Helper on Hugging Face: Quick Start Templates, Space Identity, and System Configuration">
+          <div class="gallery-caption">ChatUI Helper &mdash; templates, identity, and system config</div>
         </div>
         <div class="gallery-item">
-          <img src="images/slide20b.jpg" alt="ChatUI Helper System Configuration: system prompt, model selector, language, temperature, and max tokens">
-          <div class="gallery-caption">System prompt, model, and parameter settings</div>
-        </div>
-        <div class="gallery-item">
-          <img src="images/slide20c.jpg" alt="ChatUI Helper Example Prompts, URL Grounding, Environment Variables, and Upload Configuration sections">
-          <div class="gallery-caption">Example prompts, URL grounding, and deployment options</div>
+          <img src="images/slide20b.png" alt="ChatUI Helper: Example Prompts, URL Grounding, Environment Variables, and deployment options">
+          <div class="gallery-caption">Example prompts, URL grounding, and deployment</div>
         </div>
         <div class="gallery-dots"></div>
       </div>
@@ -464,17 +462,27 @@
       <h1>Then and <u>Now</u></h1>
       <h2>CALI Cohort 2, 2026 &mdash; Open WebUI</h2>
       <ul style="margin-top: 1em;">
-        <li class="frag">Open-source chat platform, self-hosted by <a href="https://ailab.gc.cuny.edu" target="_blank" rel="noopener">CUNY AI Lab</a> &mdash; dedicated sandbox for teaching and research</li>
+        <li class="frag">Open-source chat platform, self-hosted by <a href="https://ailab.gc.cuny.edu" target="_blank" rel="noopener">CUNY AI Lab</a></li>
         <li class="frag">Support customization of model cards, comparison of multiple models at once</li>
       </ul>
     </div>
     <div class="stage" aria-hidden="true">
+      <div class="stage-img">
+        <img src="images/slide22-a.png" alt="Open WebUI interface showing model selector with AmigAI-Template selected and CUNY AI Lab branding">
+      </div>
+    </div>
+  </section>
+
+  <!-- 24 · DEDICATED SANDBOX -->
+  <section class="slide" data-slide="sandbox" aria-label="Dedicated Sandbox for Teaching and Research">
+    <div class="content">
+      <div class="label">T(h)inkering</div>
+      <h1>Dedicated Sandbox</h1>
+      <h2>For teaching and research</h2>
+    </div>
+    <div class="stage" aria-hidden="true">
       <div class="stage-gallery" data-interval="6000">
         <div class="gallery-item active">
-          <img src="images/slide22-a.png" alt="Open WebUI interface showing model selector with AmigAI-Template selected and CUNY AI Lab branding">
-          <div class="gallery-caption">Open WebUI model selector in CUNY AI Lab sandbox</div>
-        </div>
-        <div class="gallery-item">
           <img src="images/slide22-b.png" alt="AmigAI-Template chat session in Open WebUI with a Spanish conversation">
           <div class="gallery-caption">AmigAI conversational practice in Open WebUI</div>
         </div>
@@ -491,7 +499,8 @@
   <section class="slide" data-slide="thinkering-future" aria-label="CALI 2 Cohort: T(h)inkering to Come">
     <div class="content">
       <div class="label">T(h)inkering</div>
-      <h1>Five Projects for Cohort 2</h1>
+      <h1>T(h)inkering to Come</h1>
+      <h2>Five Projects for Cohort 2</h2>
       <ul style="margin-top: 1em;">
         <li class="frag"><strong>Concept Mapping</strong> (Interdisciplinary)</li>
         <li class="frag"><strong>Laboratory Workflows</strong> (Physics)</li>
@@ -503,6 +512,7 @@
     <div class="stage" aria-hidden="true">
       <div class="stage-img">
         <img src="images/slide23.png" alt="Open WebUI model configuration screen showing Model Name, Base Model selector, System Prompt field, Knowledge, and capabilities settings">
+        <div class="gallery-caption">Model card: 1) name the card, 2) choose a base model, 3) write a system prompt</div>
       </div>
     </div>
   </section>
@@ -546,14 +556,11 @@
       <div class="label">Discussion</div>
       <h1>Questions</h1>
       <h2>How might CALI&rsquo;s frameworks, tools, and methods translate to your context?</h2>
-      <ul style="margin-top: 1.5em;">
-        <li><strong>Critical AI Literacy Institute</strong> &mdash; <a href="https://cuny.is/cali" target="_blank" rel="noopener">cuny.is/cali</a></li>
-        <li><strong>CUNY AI Lab</strong> &mdash; <a href="https://ailab.gc.cuny.edu" target="_blank" rel="noopener">ailab.gc.cuny.edu</a></li>
-      </ul>
     </div>
-    <div class="stage" aria-hidden="true">
-      <div class="stageCenter">
-        <a href="https://ailab.gc.cuny.edu" target="_blank" rel="noopener">ailab.gc.cuny.edu</a>
+    <div class="stage">
+      <div class="stageCenter" style="flex-direction: column; gap: 1.2em;">
+        <div><strong>Critical AI Literacy Institute</strong><br><a href="https://cuny.is/cali" target="_blank" rel="noopener">cuny.is/cali</a></div>
+        <div><strong>CUNY AI Lab</strong><br><a href="https://ailab.gc.cuny.edu" target="_blank" rel="noopener">ailab.gc.cuny.edu</a></div>
       </div>
     </div>
   </section>
@@ -566,13 +573,13 @@
     <img src="images/TLC-Logo-v4-No-GC-white.png" alt="Teaching and Learning Center" class="footer-logo">
     <button class="footer-arrow" id="btn-prev" aria-label="Previous slide">&#8592;</button>
     <div class="slider-track">
-      <input type="range" id="slide-scrubber" min="1" max="27" value="1" aria-label="Navigate to slide">
+      <input type="range" id="slide-scrubber" min="1" max="28" value="1" aria-label="Navigate to slide">
       <div class="slider-progress"></div>
       <div class="slider-thumb"></div>
     </div>
     <button class="footer-arrow" id="btn-next" aria-label="Next slide">&#8594;</button>
     <div class="footer-meta">
-      <span id="slider-counter">1 / 27</span>
+      <span id="slider-counter">1 / 28</span>
       <span class="kbd">Space</span>
     </div>
   </div>

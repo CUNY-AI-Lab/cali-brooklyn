@@ -163,16 +163,23 @@ section.slide.active { display: flex; }
 }
 .title-credit {
   margin-top: auto;
-  padding-top: clamp(16px,2vw,24px);
-  border-top: 1px solid rgba(180,200,220,0.07);
   display: flex; align-items: center; gap: clamp(16px,2vw,24px);
 }
 .title-credit .credit-names {
-  font-size: clamp(13px,1.25vw,15px); color: var(--fg);
+  font-size: clamp(15px,1.5vw,18px); color: var(--fg);
   opacity: 0.7; line-height: 1.5; letter-spacing: 0.005em;
 }
+.title-divider {
+  margin-top: clamp(10px,1.5vw,18px);
+  border-top: 1px solid rgba(180,200,220,0.07);
+}
+.title-agenda-label {
+  margin-top: clamp(8px,1vw,14px);
+  font-size: clamp(12px,1.1vw,14px); color: var(--part);
+  letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600;
+}
 .title-agenda {
-  list-style: none; padding: 0; margin-top: 1.2em;
+  list-style: none; padding: 0; margin-top: 0.5em;
   counter-reset: agenda;
   display: flex; flex-direction: column; gap: 2px;
 }
@@ -214,7 +221,7 @@ section.slide.active { display: flex; }
 }
 .step-row:last-child { border-bottom: none; }
 .step-num { width: 28px; height: 28px; border-radius: 50%; background: var(--part); color: #fff; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; }
-.step-text { font-size: clamp(19px,2.4vw,28px); color: rgba(218,225,232,0.86); line-height: 1.45; }
+.step-text { font-size: clamp(15px,1.8vw,22px); color: rgba(218,225,232,0.86); line-height: 1.4; }
 
 /* progressive reveal fragments */
 .frag {
@@ -270,11 +277,11 @@ section.slide.active { display: flex; }
 /* ── IMAGE IN STAGE ── */
 .stage-img {
   position: relative; width: 100%; height: 100%;
-  display: flex; align-items: center; justify-content: center;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
   padding: clamp(12px,2vw,24px);
 }
 .stage-img img {
-  max-width: 100%; max-height: 100%;
+  max-width: 100%; max-height: calc(100% - 32px);
   object-fit: contain; border-radius: 8px;
 }
 
@@ -294,7 +301,7 @@ section.slide.active { display: flex; }
   opacity: 1; pointer-events: auto;
 }
 .stage-gallery .gallery-item img {
-  max-width: 100%; max-height: min(40vh, calc(100% - 40px));
+  max-width: 100%; max-height: calc(100% - 36px);
   object-fit: contain; border-radius: 8px;
 }
 .gallery-caption {
